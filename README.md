@@ -5,12 +5,12 @@ General overview for school project
 ## Participants
 
 - **Jefe de Proyecto** 
--- Luis Benitez 
+  -- Luis Benitez 
 - **Arquitecto de Software** 
--- Franco Alvarez
+  -- Franco Alvarez
 - **Programadores**
--- Edgar Araya
--- Ricardo Catril
--- Sebastían Reyes
+  -- Edgar Araya
+  -- Ricardo Catril
+  -- Sebastían Reyes
 - **Tester** 
---Marcelo Ramirez
+  --Marcelo Ramirez
