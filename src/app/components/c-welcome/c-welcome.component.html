@@ -1,0 +1,19 @@
+
+<h1 class= 'header1'> Bienvenidos a la página del grupo {{grupo}}</h1>
+<h2> Nombre del Proyecto: {{proyecto}}</h2>
+
+<div class='container'>
+    <mat-list class='lista' *ngFor="let integrante of grouplist">
+        <mat-card class="example-card" >
+            <mat-card-header>
+            <div mat-card-avatar class="example-header-image"></div>
+            <mat-card-title>{{integrante.nombre}}</mat-card-title>
+            <mat-card-subtitle>{{integrante.cargo}}</mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src={{integrante.foto}}>
+            <mat-card-content>
+                <!-- Agregar aquí otra variable de mucho texto-->
+            </mat-card-content>
+        </mat-card>
+    </mat-list>
+</div>
