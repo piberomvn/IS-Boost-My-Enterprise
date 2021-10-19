@@ -11,13 +11,15 @@ import { CWelcomeComponent } from './components/c-welcome/c-welcome.component';
 import { CrearEmpresaComponent } from './components/crear-empresa/crear-empresa.component';
 import { MaterialModule } from './material/material.module';
 import { HeaderGrupoComponent } from './components/header-grupo/header-grupo.component';
+import { MaterialTestComponent } from './components/test/material-test/material-test.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CWelcomeComponent,
     CrearEmpresaComponent,
-    HeaderGrupoComponent
+    HeaderGrupoComponent,
+    MaterialTestComponent
   ],
   imports: [
     BrowserModule,
