@@ -10,9 +10,7 @@ export class CWelcomeComponent implements OnInit {
 
   grupo:number;
   proyecto:string;
-
   grouplist:Integrante[];
-
   constructor() {
     this.grupo = 6;
     this.proyecto = 'BOOST MY ENTERPRISE';
@@ -44,5 +42,4 @@ export class CWelcomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }
