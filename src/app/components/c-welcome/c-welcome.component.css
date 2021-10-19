@@ -4,14 +4,7 @@ img{
     max-width: 700px;
     max-height: 700px;
 }
-.header1{
-    color: red;
-    text-align: center;
-}
-h2{
-    color:sienna;
-    text-align: center;
-}
+
 .example-card{
     width: 700px;
     height: auto;

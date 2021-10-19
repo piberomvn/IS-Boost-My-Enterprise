@@ -10,12 +10,14 @@ import { CWelcomeComponent } from './components/c-welcome/c-welcome.component';
 
 import { CrearEmpresaComponent } from './components/crear-empresa/crear-empresa.component';
 import { MaterialModule } from './material/material.module';
+import { HeaderGrupoComponent } from './components/header-grupo/header-grupo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CWelcomeComponent,
-    CrearEmpresaComponent
+    CrearEmpresaComponent,
+    HeaderGrupoComponent
   ],
   imports: [
     BrowserModule,
