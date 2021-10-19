@@ -6,21 +6,22 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CWelcomeComponent } from './components/c-welcome/c-welcome.component';
 
-//material
-import { MatCardModule } from '@angular/material/card';
-import {MatListModule} from '@angular/material/list';
+//los imports de material estan en material.module.ts
+
+import { CrearEmpresaComponent } from './components/crear-empresa/crear-empresa.component';
+import { MaterialModule } from './material/material.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CWelcomeComponent
+    CWelcomeComponent,
+    CrearEmpresaComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatCardModule,
-    MatListModule
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
