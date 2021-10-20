@@ -8,12 +8,9 @@ import { Integrante } from 'src/app/interfaces/Integrantes';
 })
 export class CWelcomeComponent implements OnInit {
 
-  grupo:number;
-  proyecto:string;
+
   grouplist:Integrante[];
   constructor() {
-    this.grupo = 6;
-    this.proyecto = 'BOOST MY ENTERPRISE';
 
     const franco:Integrante = {
       nombre:'Franco Alvarez Alvarado',
