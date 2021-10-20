@@ -6,10 +6,33 @@ img{
 }
 
 .example-card{
-    width: 700px;
-    height: auto;
+    width: 400px;
+    height: 400px;
 
 }
 .lista{
-    display: flex;
+    display: inline-block;
 }
+
+mat-card img{
+    object-fit: cover;
+    width: 60%; 
+    height: 60%;
+  }
+
+
+.mat-card{
+    display:flex;
+    flex-direction: column;
+
+  }
+  
+  .mat-card-header {
+    flex-shrink: 0;
+  }
+  
+  .mat-card-content{
+    flex-grow: 1;
+    overflow: auto;
+  }
+  
