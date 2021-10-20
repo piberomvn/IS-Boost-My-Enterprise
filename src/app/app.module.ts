@@ -12,6 +12,7 @@ import { CrearEmpresaComponent } from './components/crear-empresa/crear-empresa.
 import { MaterialModule } from './material/material.module';
 import { HeaderGrupoComponent } from './components/header-grupo/header-grupo.component';
 import { MaterialTestComponent } from './components/test/material-test/material-test.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { MaterialTestComponent } from './components/test/material-test/material-
     CWelcomeComponent,
     CrearEmpresaComponent,
     HeaderGrupoComponent,
-    MaterialTestComponent
+    MaterialTestComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

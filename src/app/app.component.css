@@ -1,4 +1,20 @@
-a {
-margin-left: 2em;
 
+
+.navbar {
+    justify-content: space-between;
+    font-size:x-large
+}
+
+span {
+    padding-right: 1rem;
+}
+a {
+    padding-right: 1rem;
+    color:white;  
+}
+
+title {
+    font-size:xx-large;
+    color: red;
+    background-color: red;
 }
