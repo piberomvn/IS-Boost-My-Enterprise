@@ -17,6 +17,7 @@ import { MaterialModule } from './material/material.module';
 import { HeaderGrupoComponent } from './components/header-grupo/header-grupo.component';
 import { MaterialTestComponent } from './components/test/material-test/material-test.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { HeaderToolbarComponent } from './components/header-toolbar/header-toolbar.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { FooterComponent } from './components/footer/footer.component';
     CrearEmpresaComponent,
     HeaderGrupoComponent,
     MaterialTestComponent,
-    FooterComponent
+    FooterComponent,
+    HeaderToolbarComponent
   ],
   imports: [
     BrowserModule,
