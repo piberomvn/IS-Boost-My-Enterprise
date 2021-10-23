@@ -9,7 +9,7 @@ export class IntegranteServicesService {
 //test
 
   private port='8000';
-  private host= 'localhost';
+  private host= '127.0.0.1';
 
   private url='http://'+this.host+':'+this.port+'/integrantes';
 
