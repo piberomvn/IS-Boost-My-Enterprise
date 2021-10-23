@@ -20,6 +20,7 @@ export class CWelcomeComponent implements OnInit {
   getGroupList(){
     this._servicio_integrantes.getIntegrantes().subscribe(
       lista => {
+        console.log(lista);
         this.grouplist = lista;
       }
     );
