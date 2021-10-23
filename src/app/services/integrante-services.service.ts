@@ -13,11 +13,14 @@ export class IntegranteServicesService {
   private host_server='http://146.83.198.35:1068';
   private api_server='integrantes';
   //private url='http://'+this.host+':'+this.port+'/integrantes';
-  private url=this.host_server+"/"+this.api_server;
+  private url=this.host_server+"/api/"+this.api_server;
 
   constructor(private http:HttpClient) { }
 
   getIntegrantes():Observable<any>{
     return this.http.get(this.url)
   }
+
+
+  
 }

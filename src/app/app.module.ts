@@ -19,6 +19,7 @@ import { MaterialTestComponent } from './components/test/material-test/material-
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderToolbarComponent } from './components/header-toolbar/header-toolbar.component';
 import { HomeComponent } from './components/home/home.component';
+import { CrearMiembroComponent } from './components/miembro/crear-miembro/crear-miembro.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { HomeComponent } from './components/home/home.component';
     MaterialTestComponent,
     FooterComponent,
     HeaderToolbarComponent,
-    HomeComponent
+    HomeComponent,
+    CrearMiembroComponent
   ],
   imports: [
     BrowserModule,
