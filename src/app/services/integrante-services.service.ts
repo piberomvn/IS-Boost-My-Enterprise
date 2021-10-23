@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 export class IntegranteServicesService {
 //test
 
-  private port='7999';
+  private port='8000';
   private host= 'localhost';
 
   private url='http://'+this.host+':'+this.port+'/integrantes';
