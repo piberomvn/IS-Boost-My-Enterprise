@@ -1,17 +1,16 @@
 <p>crear miembro</p>
 
 <mat-form-field>
-    <mat-label>Nombre</mat-label>
-    <input 
-    placeholder="Insertar nombre miembro">
-  </mat-form-field>
+  <input [formControl]="nombre" matInput type="text" placeholder="nombre" />
+</mat-form-field>
 
-  <mat-form-field>
-    <mat-label>Cargo</mat-label>
-    <input placeholder="Insertar cargo miembro">
-  </mat-form-field>
+<mat-form-field>
+  <input [formControl]="cargo" matInput type="text" placeholder="nombre" />
+</mat-form-field>
 
-  <mat-form-field>
-    <mat-label>Foto</mat-label>
-    <input placeholder="Insertar url foto miembro">
-  </mat-form-field>
+<mat-form-field appearance="outline" >
+  <input matInput [formControl]="url_foto" matInput type="text" placeholder="nombre" />
+</mat-form-field>
+
+
+  <button (click)="guardarIntegrante()" mat-button>Boton </button>
