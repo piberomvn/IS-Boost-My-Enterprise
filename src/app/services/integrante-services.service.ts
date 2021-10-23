@@ -11,7 +11,8 @@ export class IntegranteServicesService {
   private port='8000';
   private host= '127.0.0.1';
 
-  private url='http://'+this.host+':'+this.port+'/integrantes';
+  //private url='http://'+this.host+':'+this.port+'/integrantes';
+  private url='http://146.83.198.35:1068/docs';
 
   constructor(private http:HttpClient) { }
 
