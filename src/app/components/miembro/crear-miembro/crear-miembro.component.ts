@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Integrante } from 'src/app/interfaces/Integrantes';
 import { IntegranteServicesService } from 'src/app/services/integrante-services.service';
 
 @Component({
@@ -9,7 +10,7 @@ import { IntegranteServicesService } from 'src/app/services/integrante-services.
 export class CrearMiembroComponent implements OnInit {
 
 
-
+  integrante_list:Integrante[];
   nombre:string;
   url_foto:string;
   cargo:string;
@@ -19,7 +20,7 @@ export class CrearMiembroComponent implements OnInit {
     this.nombre="";
     this.url_foto="";
     this.cargo="";
-
+    this.integrante_list=[];
 
   }
 
