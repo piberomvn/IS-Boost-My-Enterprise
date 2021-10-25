@@ -7,11 +7,20 @@ import { Observable } from 'rxjs';
 })
 export class IntegranteServicesService {
 //test
-  private url='http://172.17.0.2:81/integrantes';
+
+  private port='8000';
+  private host= '127.0.0.1';
+  private host_server='http://146.83.198.35:1068';
+  private api_server='integrantes';
+  //private url='http://'+this.host+':'+this.port+'/integrantes';
+  private url=this.host_server+"/"+this.api_server;
 
   constructor(private http:HttpClient) { }
 
   getIntegrantes():Observable<any>{
     return this.http.get(this.url)
   }
+
+
+  
 }
