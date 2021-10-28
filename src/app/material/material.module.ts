@@ -7,6 +7,9 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatInputModule} from '@angular/material/input';
+import { MatNativeDateModule, MatRippleModule } from '@angular/material/core';
+import { MatDividerModule } from '@angular/material/divider';
+
 
 const material = [
   MatButtonModule,
@@ -15,7 +18,11 @@ const material = [
   MatFormFieldModule,
   MatToolbarModule,
   MatIconModule,
-  MatInputModule
+  MatInputModule,
+  MatDividerModule,
+  MatNativeDateModule,
+  MatRippleModule
+    
 ]
 
 
