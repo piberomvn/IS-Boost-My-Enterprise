@@ -10,6 +10,8 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CWelcomeComponent } from './components/c-welcome/c-welcome.component';
 
+
+import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 //los imports de material estan en material.module.ts
 
 import { CrearEmpresaComponent } from './components/crear-empresa/crear-empresa.component';
@@ -38,7 +40,9 @@ import { CrearMiembroComponent } from './components/miembro/crear-miembro/crear-
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    MaterialModule
+    MaterialModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

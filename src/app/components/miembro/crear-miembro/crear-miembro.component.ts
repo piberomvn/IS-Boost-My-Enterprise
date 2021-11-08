@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl } from '@angular/forms';
 import { Integrante } from 'src/app/interfaces/Integrantes';
 import { IntegranteServicesService } from 'src/app/services/integrante-services.service';
 
@@ -9,17 +10,15 @@ import { IntegranteServicesService } from 'src/app/services/integrante-services.
 })
 export class CrearMiembroComponent implements OnInit {
 
-
+  //formgroup despues
   integrante_list:Integrante[];
-  nombre:string;
-  url_foto:string;
-  cargo:string;
+  nombre = new FormControl('');
+  url_foto = new FormControl('');
+  cargo = new FormControl('');
+ 
 
   constructor( private integranteService: IntegranteServicesService){ 
 
-    this.nombre="";
-    this.url_foto="";
-    this.cargo="";
     this.integrante_list=[];
 
   }
@@ -28,8 +27,8 @@ export class CrearMiembroComponent implements OnInit {
   }
 
   guardarIntegrante(): void {
-    this.nombre='test';
-    console.log('guardar');
+    
+    console.log('guardar:'+this.nombre.value);
 
 
 
