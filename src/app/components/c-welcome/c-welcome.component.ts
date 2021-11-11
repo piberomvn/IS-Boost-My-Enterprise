@@ -35,7 +35,16 @@ export class CWelcomeComponent implements OnInit {
       foto:'https://st.depositphotos.com/1269204/1219/i/950/depositphotos_12196477-stock-photo-smiling-men-isolated-on-the.jpg'
     };
     this.grouplist.push(edgar);
+
+    const roman:Integrante = {
+      nombre:'Cristobal Roman Leiva',
+      cargo:'Programador',
+      foto:'https://st.depositphotos.com/1269204/1219/i/950/depositphotos_12196477-stock-photo-smiling-men-isolated-on-the.jpg'
+    };
+    this.grouplist.push(roman);
    }
+
+    
 
   ngOnInit(): void {
   }
