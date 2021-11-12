@@ -1,3 +1,4 @@
+
 <div class='container'>
     <mat-list class='lista' *ngFor="let integrante of grouplist" >
         <mat-card class="example-card" >
@@ -10,11 +11,14 @@
             <mat-card-content>
                 <!-- Agregar aquí otra variable de mucho texto-->
             </mat-card-content>
+            <mat-card-actions >
+                <button mat-flat-button> Enviar Mensaje</button>
+                <button mat-button>LIKE</button>
+                <button mat-button>SHARE</button>
+            </mat-card-actions>
         </mat-card>
-        <mat-card-actions >
-            <button mat-flat-button> Enviar Mensaje</button>
-            <button mat-button>LIKE</button>
-            <button mat-button>SHARE</button>
-        </mat-card-actions>
+      
     </mat-list>
 </div>
+
+<app-crear-miembro> </app-crear-miembro>

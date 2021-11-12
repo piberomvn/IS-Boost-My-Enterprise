@@ -20,7 +20,6 @@ mat-card img{
     height: 60%;
   }
 
-
 .mat-card{
     display:flex;
     flex-direction: column;
